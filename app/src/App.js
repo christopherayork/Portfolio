@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
         <Sidebar />
-        <Route path='/'><Home /></Route>
+        <Route exact path='/'><Home /></Route>
         <Route path='/about'><About /></Route>
         <Route path='/skills'><Skills /></Route>
         <Route path='/work'><Work /></Route>

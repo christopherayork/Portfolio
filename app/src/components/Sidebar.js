@@ -1,5 +1,5 @@
 import React from 'react';
-import sidebarStyled from "./sidebarStyled";
+import SidebarStyled from "./sidebarStyled";
 import { Home, Person, Build, Visibility, Email, LinkedIn } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ export const Sidebar = (props) => {
 
 
   return (
-    <sidebarStyled className='sidebar'>
+    <SidebarStyled className='sidebar'>
       <div className='top'>
 
       </div>
@@ -30,12 +30,12 @@ export const Sidebar = (props) => {
         </Link>
       </div>
       <div className='bottom'>
-        <a href='https://www.linkedin.com/in/christopher-a-york/' target='_blank' rel='noopener' className='button small'>
-          <LinkedIn color='primary' />
+        <a href='https://www.linkedin.com/in/christopher-a-york/' target='_blank' rel='noopener noreferrer' className='button'>
+          <LinkedIn color='primary'  className='icon social' />
         </a>
 
       </div>
-    </sidebarStyled>
+    </SidebarStyled>
   );
 };
 

@@ -1,13 +1,14 @@
 import React from 'react';
+import ContentStyled from './contentStyled';
 
 
 const Skills = (props) => {
 
 
   return (
-    <div className='Skills'>
+    <ContentStyled className='Skills'>
       Skills
-    </div>
+    </ContentStyled>
   );
 };
 
