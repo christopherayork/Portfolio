@@ -3,9 +3,8 @@ import SidebarStyled from "./sidebarStyled";
 import { Home, Person, Build, Visibility, Email, LinkedIn } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
 
+
 export const Sidebar = (props) => {
-
-
 
   return (
     <SidebarStyled className='sidebar'>
