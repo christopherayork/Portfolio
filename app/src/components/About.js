@@ -3,7 +3,7 @@ import ContentStyled from './contentStyled';
 // import {Link} from "react-router-dom";
 
 
-const About = (props) => {
+const About = () => {
 
 
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import ContentStyled from './contentStyled';
 import { Link } from 'react-router-dom';
 
-const Home = (props) => {
+const Home = () => {
 
   return (
     <ContentStyled className='home'>

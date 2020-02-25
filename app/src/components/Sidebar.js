@@ -1,10 +1,10 @@
 import React from 'react';
 import SidebarStyled from "./sidebarStyled";
-import { Home, Person, Build, Visibility, Email, LinkedIn } from '@material-ui/icons';
+import { Home, Person, Build, Visibility, LinkedIn } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
 
 
-export const Sidebar = (props) => {
+export const Sidebar = () => {
 
   return (
     <SidebarStyled className='sidebar'>
@@ -23,9 +23,6 @@ export const Sidebar = (props) => {
         </Link>
         <Link to='/work' className='button'>
           <Visibility color='primary' className='icon' fontSize='large' />
-        </Link>
-        <Link to='/contact' className='button'>
-          <Email color='primary' className='icon' fontSize='large' />
         </Link>
       </div>
       <div className='bottom'>

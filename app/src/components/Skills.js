@@ -1,9 +1,9 @@
 import React from 'react';
 import ContentStyled from './contentStyled';
-import { HexGrid, Layout, Hexagon, Pattern, Text } from 'react-hexgrid';
+import { HexGrid, Layout, Hexagon, Text } from 'react-hexgrid';
 
 
-const Skills = (props) => {
+const Skills = () => {
 
 
   return (

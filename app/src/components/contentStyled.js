@@ -147,6 +147,84 @@ const ContentStyled = styled.div`
       }
     }
   }
+  
+  &.work {
+    
+    .projects {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      height: 95vh;
+      overflow-y: auto;
+      
+      .project {
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        height: 250px;
+        margin-top: 10px;
+        border-radius: 5px;
+        overflow: hidden;
+        
+        @media (max-width: 800px) {
+          width: 45%;
+        }
+        
+        @media (max-width: 600px) {
+          width: 95%;
+        }
+        
+        img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          object-fit: cover;
+        }
+        
+        .content {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 15px;
+          box-sizing: border-box;
+          opacity: 0;
+          transition: background 1s, opacity 1s;
+          
+          button {
+            background: inherit;
+            border: 2px solid #00d4d0;
+            transition: border 1s, color 1s;
+            color: #00d4d0;
+            margin-right: 10px;
+            
+            &:hover {
+              border: 2px solid #db3102;
+              color: #db3102;
+            }
+            
+            @media (max-width: 800px) {
+              width: 40%;
+              font-size: 1rem;
+            }
+          }
+          
+          &:hover {
+            background: #0e2a36;
+            opacity: 0.85;
+          }
+        }
+        .content:before {
+          content: '';
+          display: inline-block;
+          height: 100%;
+          
+        }
+      }
+    }
+  }
 `;
 
 
