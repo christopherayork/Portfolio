@@ -5,7 +5,8 @@ const ContentStyled = styled.div`
   background: #222;
   color: #eee;
   
-  &.home, &.about, &.skills {
+  &.home, &.about, &.skills, &.contact
+   {
     padding: 10px;
     display: flex;
     align-items: center;
@@ -20,6 +21,13 @@ const ContentStyled = styled.div`
         span.first-letter {
           color: #db3102;
           text-shadow: -3px -2px #00d4d0;
+        }
+      }
+      
+      div.contact {
+        .item {
+          color: #888;
+          margin-left: 50px;
         }
       }
       
@@ -161,7 +169,7 @@ const ContentStyled = styled.div`
         position: relative;
         display: inline-block;
         width: 30%;
-        height: 250px;
+        height: 40%;
         margin-top: 10px;
         border-radius: 5px;
         overflow: hidden;

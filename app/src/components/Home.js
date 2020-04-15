@@ -22,7 +22,11 @@ const Home = () => {
           {'</h1>'}
         </p>
         <p className='tagline'>Front End / Back End Developer</p>
-        <button className='contact'><Link to='/contact'>Contact Me</Link></button>
+        <button className='contact'>
+          <a href='https://www.linkedin.com/in/christopher-a-york/' target='_blank' rel='noopener noreferrer' className='button'>
+            Contact Me
+          </a>
+        </button>
         <p className='html one'>
           {'</body>'}
         </p>
