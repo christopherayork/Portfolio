@@ -21,7 +21,7 @@ const Home = () => {
         <p className='html two'>
           {'</h1>'}
         </p>
-        <p className='tagline'>Front End / Back End Developer</p>
+        <p className='tagline'>Full Stack Developer</p>
         <button className='contact'>
           <a href='https://www.linkedin.com/in/christopher-a-york/' target='_blank' rel='noopener noreferrer' className='button'>
             Contact Me
