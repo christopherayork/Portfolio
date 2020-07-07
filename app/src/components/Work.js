@@ -18,30 +18,9 @@ const projects = [
     deploy: 'https://stack-bco.netlify.com/'
   },
   {
-    image: guidrPrev,
-    title: 'Guidr',
-    description: 'A simple app for users to track and share their travels with friends.',
-    github: 'https://github.com/bw-guidr/guidr-frontend',
-    deploy: 'https://guidr-frontend.netlify.com/'
-  },
-  {
-    image: bohcuraPrev,
-    title: 'Bohcura',
-    description: 'Bohcura is a chef\'s recipe app for Chefs to share their most popular dishes and get their name out to the public.',
-    github: 'https://github.com/build-week-chefportfolio/Frontend-Developer',
-    deploy: 'https://bohcura-app.netlify.com/'
-  },
-  {
-    image: expatPrev,
-    title: 'Expat Journal',
-    description: 'An API built to store data for a traveler\'s app.',
-    github: 'https://github.com/buildweek-expat-journal/Back-End/tree/Chris-York',
-    deploy: 'https://expat-journal-api.herokuapp.com/'
-  },
-  {
     image: pffPrev,
     title: 'Project Firefly Frontend',
-    description: 'A kid\'s learning app meant to teach programming concepts. My team built out the social side, including onboarding, forums, payment, and customer support.',
+    description: 'A kid\'s learning app meant to teach programming concepts.',
     github: 'https://github.com/Lambda-School-Labs/project-firefly-fe',
     deploy: 'https://projectfirefly.netlify.com/'
   },
