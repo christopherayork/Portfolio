@@ -1,6 +1,6 @@
 import React from 'react';
 import ContentStyled from './contentStyled';
-import { Link } from 'react-router-dom';
+
 
 const Home = () => {
 

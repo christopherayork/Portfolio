@@ -3,9 +3,6 @@ import ContentStyled from './contentStyled';
 
 
 import stackPrev from '../assets/stack-preview.png';
-import guidrPrev from '../assets/guidr-preview.png';
-import bohcuraPrev from '../assets/bohcura-preview.png';
-import expatPrev from '../assets/expat-preview.png';
 import pffPrev from '../assets/project-fe-preview.png';
 import ppMUDPrev from '../assets/pizza-party-preview.png';
 
