@@ -201,6 +201,17 @@ const ContentStyled = styled.div`
           opacity: 0;
           transition: background 1s, opacity 1s;
           
+          .stack-list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+            
+            li {
+              width: 49%;
+            }
+          }
+          
           button {
             background: inherit;
             border: 2px solid #00d4d0;
