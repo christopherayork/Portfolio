@@ -173,13 +173,20 @@ const ContentStyled = styled.div`
         margin-top: 10px;
         border-radius: 5px;
         overflow: hidden;
+        font-size: 0.8rem;
+        
+        @media (max-width: 1000px) {
+          font-size: 0.65rem;
+        }
         
         @media (max-width: 800px) {
           width: 45%;
+          font-size: 0.7rem;
         }
         
         @media (max-width: 600px) {
           width: 95%;
+          font-size: 0.7rem;
         }
         
         img {
@@ -218,6 +225,18 @@ const ContentStyled = styled.div`
             }
           }
           
+          .buttons {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            
+            a {
+              width: 50%;
+              display: flex;
+              justify-content: center;
+            }
+          }
+          
           button {
             background: inherit;
             border: 2px solid #00d4d0;
@@ -231,7 +250,11 @@ const ContentStyled = styled.div`
             }
             
             @media (max-width: 800px) {
-              width: 40%;
+              //width: 40%;
+              font-size: 1rem;
+            }
+            
+            @media(max-width: 600px) {
               font-size: 1rem;
             }
           }
