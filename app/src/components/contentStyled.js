@@ -196,10 +196,16 @@ const ContentStyled = styled.div`
           display: flex;
           flex-direction: column;
           align-items: center;
-          padding: 15px;
+          padding: 0 15px 15px 15px;
           box-sizing: border-box;
           opacity: 0;
           transition: background 1s, opacity 1s;
+          
+          h2.title {
+            padding: 0;
+            margin-top: -15px;
+          }
+          
           
           .stack-list {
             display: flex;
