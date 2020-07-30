@@ -43,6 +43,20 @@ const SidebarStyled = styled.div`
   
   .icon.social {
     color: #dbbe02;
+    
+    &:hover {
+      color: #db3102;
+      border-bottom: 1px solid #db3102;
+    }
+  }
+  
+  .icon.github {
+    color: #db3102;
+    
+    &:hover {
+      color: #00d4d0;
+      border-bottom:  1px solid #00d4d0;
+    }
   }
 `;
 

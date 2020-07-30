@@ -31,6 +31,11 @@ const ContentStyled = styled.div`
         }
       }
       
+      span.email {
+        margin-left: 50px;
+        font-size: 0.8rem;
+      }
+      
       
       h1.mainline.about {
           color: #00d4d0;

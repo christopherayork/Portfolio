@@ -26,7 +26,8 @@ const Home = () => {
           <a href='https://www.linkedin.com/in/christopher-a-york/' target='_blank' rel='noopener noreferrer' className='button'>
             Contact Me
           </a>
-        </button>
+        </button><br />
+        <span className='email'>christopherayork1992@gmail.com</span>
         <p className='html one'>
           {'</body>'}
         </p>
