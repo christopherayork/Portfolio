@@ -22,12 +22,7 @@ const Home = () => {
           {'</h1>'}
         </p>
         <p className='tagline'>Full Stack Developer</p>
-        <button className='contact'>
-          <a href='https://www.linkedin.com/in/christopher-a-york/' target='_blank' rel='noopener noreferrer' className='button'>
-            Contact Me
-          </a>
-        </button><br />
-        <span className='email'>christopherayork1992@gmail.com</span>
+        <span className='email'><a href='mailto:christopherayork1992@gmail.com'>christopherayork1992@gmail.com</a></span>
         <p className='html one'>
           {'</body>'}
         </p>

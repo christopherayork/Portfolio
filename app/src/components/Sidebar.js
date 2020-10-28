@@ -14,16 +14,16 @@ export const Sidebar = () => {
       </div>
       <div className='middle'>
         <Link to='/' className='button'>
-          <Home color='primary' className='icon' fontSize='large' />
+            <Home color='primary' className='icon' fontSize='large' />
         </Link>
         <Link to='/about' className='button'>
-          <Person color='primary' className='icon' fontSize='large' />
-        </Link>
-        <Link to='/skills' className='button'>
-          <Build color='primary' className='icon' fontSize='large' />
+            <Person color='primary' className='icon' fontSize='large' />
         </Link>
         <Link to='/work' className='button'>
-          <Visibility color='primary' className='icon' fontSize='large' />
+            <Visibility color='primary' className='icon' fontSize='large' />
+        </Link>
+        <Link to='/skills' className='button'>
+            <Build color='primary' className='icon' fontSize='large' />
         </Link>
       </div>
       <div className='bottom'>

@@ -34,6 +34,16 @@ const ContentStyled = styled.div`
       span.email {
         margin-left: 50px;
         font-size: 0.8rem;
+        
+        a {
+          text-decoration: none;
+          color: #00d4d0;
+          transition: 1s color;
+          
+          &:hover {
+            color: #db3102;
+          }
+        }
       }
       
       
@@ -171,47 +181,38 @@ const ContentStyled = styled.div`
       overflow-y: auto;
       
       .project {
-        position: relative;
-        display: inline-block;
-        width: 30%;
-        height: 40%;
+        width: 99%;
         margin-top: 10px;
         border-radius: 5px;
-        overflow: hidden;
-        font-size: 0.8rem;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.25rem;
         
         @media (max-width: 1000px) {
-          font-size: 0.65rem;
+          font-size: 1.25rem;
         }
         
         @media (max-width: 800px) {
-          width: 45%;
-          font-size: 0.7rem;
+          font-size: 0.9rem;
         }
         
         @media (max-width: 600px) {
-          width: 95%;
-          font-size: 0.7rem;
+          font-size: 0.6rem;
         }
         
         img {
-          max-width: 100%;
+          max-width: 45%;
           height: auto;
-          display: block;
           object-fit: cover;
         }
         
         .content {
-          position: absolute;
-          width: 100%;
-          height: 100%;
+          width: 45%;
           display: flex;
           flex-direction: column;
           align-items: center;
           padding: 0 15px 15px 15px;
           box-sizing: border-box;
-          opacity: 0;
-          transition: background 1s, opacity 1s;
           
           h2.title {
             padding: 0;
@@ -233,12 +234,13 @@ const ContentStyled = styled.div`
           .buttons {
             width: 100%;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: left;
             
             a {
-              width: 50%;
+              max-width: 50%;
               display: flex;
               justify-content: center;
+              text-decoration: none;
             }
           }
           
@@ -263,17 +265,6 @@ const ContentStyled = styled.div`
               font-size: 1rem;
             }
           }
-          
-          &:hover {
-            background: #0e2a36;
-            opacity: 0.85;
-          }
-        }
-        .content:before {
-          content: '';
-          display: inline-block;
-          height: 100%;
-          
         }
       }
     }
