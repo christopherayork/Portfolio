@@ -180,6 +180,10 @@ const ContentStyled = styled.div`
       height: 95vh;
       overflow-y: auto;
       
+      .project:first-of-type {
+        margin-top: 50px;
+      }
+      
       .project {
         width: 99%;
         margin-top: 10px;
