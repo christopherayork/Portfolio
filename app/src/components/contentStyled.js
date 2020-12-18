@@ -198,12 +198,21 @@ const ContentStyled = styled.div`
         
         @media (max-width: 600px) {
           font-size: 0.6rem;
+          flex-direction: column;
+          align-items: center;
+          
         }
         
         img {
           max-width: 45%;
           height: auto;
-          object-fit: cover;
+          //object-fit: cover;
+          object-fit: scale-down;
+          
+          @media(max-width: 600px) {
+            max-width: 95%;
+            margin-bottom: 30px;
+          }
         }
         
         .content {
@@ -213,6 +222,10 @@ const ContentStyled = styled.div`
           align-items: center;
           padding: 0 15px 15px 15px;
           box-sizing: border-box;
+          
+          @media(max-width: 600px) {
+            width: 95%;
+          }
           
           h2.title {
             padding: 0;
@@ -228,6 +241,10 @@ const ContentStyled = styled.div`
             
             li {
               width: 49%;
+              
+              @media(max-width: 600px) {
+                width: 95%;
+              }
             }
           }
           
