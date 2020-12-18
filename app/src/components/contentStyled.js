@@ -197,7 +197,8 @@ const ContentStyled = styled.div`
         }
         
         @media (max-width: 600px) {
-          font-size: 0.6rem;
+          font-size: 0.9rem;
+          
           flex-direction: column;
           align-items: center;
           
